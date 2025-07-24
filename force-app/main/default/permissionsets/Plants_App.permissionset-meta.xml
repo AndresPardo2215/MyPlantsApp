@@ -20,16 +20,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Species__c.Ideal_Max_Temperature__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Species__c.Ideal_Min_Temperature__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Species__c.Image__c</field>
         <readable>true</readable>
@@ -37,6 +27,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Species__c.Light_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Species__c.Max_Temperature__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Species__c.Min_Temperature__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

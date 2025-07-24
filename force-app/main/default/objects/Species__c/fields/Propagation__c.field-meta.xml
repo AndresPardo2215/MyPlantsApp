@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Propagation__c</fullName>
     <label>Propagation</label>
-    <required>true</required>
+    <required>false</required>
     <trackTrending>false</trackTrending>
     <type>MultiselectPicklist</type>
     <valueSet>
@@ -25,11 +25,21 @@
                 <label>Cuttings</label>
             </value>
             <value>
-                <fullName>Graftings</fullName>
+                <fullName>Layering</fullName>
                 <default>false</default>
-                <label>Graftings</label>
+                <label>Layering</label>
+            </value>
+            <value>
+                <fullName>Shoot</fullName>
+                <default>false</default>
+                <label>Shoot</label>
+            </value>
+            <value>
+                <fullName>Grafting</fullName>
+                <default>false</default>
+                <label>Grafting</label>
             </value>
         </valueSetDefinition>
     </valueSet>
-    <visibleLines>4</visibleLines>
+    <visibleLines>6</visibleLines>
 </CustomField>

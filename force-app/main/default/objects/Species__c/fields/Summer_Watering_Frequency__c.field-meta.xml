@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Summering_Watering_Frequency__c</fullName>
-    <label>Summering Watering Frequency</label>
-    <required>true</required>
+    <fullName>Summer_Watering_Frequency__c</fullName>
+    <label>Summer Watering Frequency</label>
+    <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
-        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
@@ -15,9 +14,9 @@
                 <label>Daily</label>
             </value>
             <value>
-                <fullName>Twice pre week</fullName>
+                <fullName>Twice per week</fullName>
                 <default>false</default>
-                <label>Twice pre week</label>
+                <label>Twice per week</label>
             </value>
             <value>
                 <fullName>Weekly</fullName>

@@ -2,17 +2,16 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Location__c</fullName>
     <label>Location</label>
-    <required>true</required>
+    <required>false</required>
     <trackTrending>false</trackTrending>
     <type>MultiselectPicklist</type>
     <valueSet>
-        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Indoor</fullName>
+                <fullName>Indoors</fullName>
                 <default>true</default>
-                <label>Indoor</label>
+                <label>Indoors</label>
             </value>
             <value>
                 <fullName>Outdoors</fullName>
