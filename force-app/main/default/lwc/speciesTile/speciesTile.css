@@ -1,5 +1,5 @@
 :host { /* al usar web components hay un selector que nos permite aplicar estilos al componente en su totalidad */
-    max-width: 325px;
+    width: 285px;
     display: block;
 }
 p.description {
@@ -7,6 +7,7 @@ p.description {
 }
 img.specie {
     height: 200px;
+    max-width: 250px;
     border-radius: 1.5rem;
     border: 1px solid rgb(221, 219, 218);
 }

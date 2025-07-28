@@ -62,6 +62,92 @@
                 <identifier>RecordRegions_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Harvesting_after_Months__c</fieldItem>
+                <identifier>RecordHarvesting_after_Months__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Planting_Distance_cm__c</fieldItem>
+                <identifier>RecordPlanting_Distance_cm__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Pot__c</fieldItem>
+                <identifier>RecordPot__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Propagation_Notes__c</fieldItem>
+                <identifier>RecordPropagation_Notes__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Pruning_Notes__c</fieldItem>
+                <identifier>RecordPruning_Notes__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Blooming__c</fieldItem>
+                <identifier>RecordBlooming__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Image_Name__c</fieldItem>
+                <identifier>RecordImage_Name__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Planting__c</fieldItem>
+                <identifier>RecordPlanting__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Propagation__c</fieldItem>
+                <identifier>RecordPropagation__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-73ffb35f-6ed9-4121-888d-622ee3998ffc</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -223,7 +309,7 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Ideal_Max_Temperature__c</fieldItem>
+                <fieldItem>Record.Max_Temperature__c</fieldItem>
                 <identifier>RecordIdeal_Max_Temperature_cField</identifier>
             </fieldInstance>
         </itemInstances>
@@ -247,7 +333,7 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Ideal_Min_Temperature__c</fieldItem>
+                <fieldItem>Record.Min_Temperature__c</fieldItem>
                 <identifier>RecordIdeal_Min_Temperature_cField</identifier>
             </fieldInstance>
         </itemInstances>
@@ -344,7 +430,7 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Summering_Watering_Frequency__c</fieldItem>
+                <fieldItem>Record.Summer_Watering_Frequency__c</fieldItem>
                 <identifier>RecordSummering_Watering_Frequency_cField</identifier>
             </fieldInstance>
         </itemInstances>
@@ -628,16 +714,6 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Propagation__c</fieldItem>
-                <identifier>RecordPropagation_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
         <name>Facet-46650615-da2e-4f90-a20f-d3ab4e2d5d92</name>
         <type>Facet</type>
     </flexiPageRegions>
