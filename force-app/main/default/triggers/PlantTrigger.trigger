@@ -10,7 +10,7 @@ trigger PlantTrigger on Plant__c (before insert, before update) {
         // Precargar información necesario de objetos relacionados
         Set<Id> speciesIds = new Set<Id>();
         for(Plant__c newPlant : Trigger.new) {
-            Plant__c oldPlant = Trigger.oldMap.get(newPlant.Id);
+            Plant__c oldPlant = (Trigger.isUpdate) ? Trigger.oldMap.get(newPlant.Id) : null;
             if(oldPlant == null || (oldPlant.Last_Watered__c != newPlant.Last_Watered__c)) {
                 speciesIds.add(newPlant.Species__c);
             }
