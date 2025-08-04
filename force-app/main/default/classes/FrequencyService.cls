@@ -1,9 +1,10 @@
 public with sharing class FrequencyService {
+    // significado de with sharing: respetar la seguridad a nivel de regisro
 
     static Map<String,Integer> daysByFrequency = new Map<String,Integer>();
 
     static { // bloque estático de iniciación
-        daysByFrequency.put('Dayly',1);
+        daysByFrequency.put('Daily',1);
         daysByFrequency.put('Twice per week',3);
         daysByFrequency.put('Weekly',7);
         daysByFrequency.put('Every other week',15);
@@ -24,6 +25,11 @@ public with sharing class FrequencyService {
     }
 
     public static Integer getFertilizationDays(Species__c specie) {
-        return 30;
+        Integer month = System.today().month();
+        if(summerMonths.contains(month)) {
+            return daysByFrequency.get(specie.Summer_Fertilization_Frequency__c);
+        } else {
+            return daysByFrequency.get(specie.Winter_Fertilization_Frequency__c);
+        }
     }
 }
